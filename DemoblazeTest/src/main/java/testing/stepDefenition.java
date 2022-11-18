@@ -19,7 +19,8 @@ public class stepDefenition {
 	
 	@Given("^User have opened the browser$")
 	public void setup() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumData\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "\\driver\\chromedriver.exe");
+		///DemoblazeQA/DemoblazeTest/src/main/java/testing/stepDefenition.java
 		driver = new ChromeDriver();
 	}
 
